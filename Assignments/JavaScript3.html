@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array List</title>
+</head>
+<body>
+    <script>
+        var numbers=[15,34,16,9,41,76,83];
+       
+        document.write('Array before sorting : '+numbers);
+       
+        numbers.sort(function(a,b){return(a-b)});
+ 
+        document.write('<br><br>Array after sorting : '+numbers);
+ 
+        const a=numbers[1];
+        const b=numbers[numbers.length-2]
+ 
+        document.write('<br><br>The second min  and max of the array is : '+a+','+b);
+    </script>
+</body>
+</html>
